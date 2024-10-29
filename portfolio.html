@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio | Diseñador Gráfico Profesional</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fuentes e Íconos -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+<body>
+
+  <!-- Contenedor Principal -->
+  <div class="main-container">
+
+    <!-- Navegación -->
+    <header>
+      <nav class="navbar">
+        <div class="logo"><a href="index.html">Mi<span>Logo</span></a></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre Mí</a></li>
+          <li><a href="portfolio.html" class="active">Portafolio</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="testimonials.html">Testimonios</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Sección Portafolio -->
+    <section class="portfolio">
+      <div class="container">
+        <h2>Mi Trabajo</h2>
+        <p class="section-description">Aquí encontrarás una selección de mis proyectos más destacados en diferentes áreas del diseño gráfico.</p>
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="web">Diseño Web</button>
+          <button class="filter-btn" data-filter="illustration">Ilustración</button>
+        </div>
+        <div class="portfolio-grid">
+          <!-- Proyecto 1 -->
+          <div class="portfolio-item" data-category="branding">
+            <img src="images/proyecto1.jpg" alt="Proyecto 1">
+            <div class="portfolio-info">
+              <h3>Proyecto Branding 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="portfolio-item" data-category="web">
+            <img src="images/proyecto2.jpg" alt="Proyecto 2">
+            <div class="portfolio-info">
+              <h3>Proyecto Web 1</h3>
+              <p>Nulla facilisi. Proin in lacus sit amet metus finibus sollicitudin.</p>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="portfolio-item" data-category="illustration">
+            <img src="images/proyecto3.jpg" alt="Proyecto 3">
+            <div class="portfolio-info">
+              <h3>Proyecto Ilustración 1</h3>
+              <p>Aenean vitae augue in metus pulvinar fermentum.</p>
+            </div>
+          </div>
+          <!-- Más proyectos -->
+          <!-- Agrega más elementos de proyecto aquí -->
+        </div>
+      </div>
+    </section>
+
+  </div> <!-- Fin del Contenedor Principal -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="social-media">
+        <a href="#"><i class="fab fa-behance"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p>&copy; 2023 Tu Nombre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
